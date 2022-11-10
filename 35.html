@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .d1{
+         display: inline-block;
+         width:100px;
+         height: 100px;
+         background-color: black;
+         color: azure;
+         text-align: center;
+         position: relative;
+         animation: sw 4s linear 1s infinite alternate;
+     }   
+    @keyframes sw{
+        0%{
+            background-color: rgb(44, 39, 39);
+            top: 0;
+            left:0;
+        }
+        25%{
+            background-color: rgb(114, 98, 98);
+            top: 0;
+            left: 400px;;
+        }
+        50%{
+            background-color: rgb(170, 111, 111);
+            top: 400px;
+            left:400px;
+        }
+        75%{
+            background-color: rgb(175, 72, 72);
+            top: 400px;
+            left:0;
+        }
+        100%{
+            background-color: rgb(104, 16, 16);
+            top: 0;
+            left:0;
+        }
+    }
+    .d2{
+        display: inline-block;
+         width:100px;
+         height: 100px;
+         background-color: black;
+         color: azure;
+         text-align: center;
+         position: relative;
+         animation: sw1 4s linear 1s infinite alternate;
+        margin-right: 0%;
+     }   
+    @keyframes sw1{
+        0%{
+            background-color: rgb(44, 39, 39);
+            top: 0;
+            left:0;
+        }
+        25%{
+            background-color: rgb(114, 98, 98);
+            top: 0;
+            left: 400px;;
+        }
+        50%{
+            background-color: rgb(170, 111, 111);
+            top: 400px;
+            left:400px;
+        }
+        75%{
+            background-color: rgb(175, 72, 72);
+            top: 400px;
+            left:0;
+        }
+        100%{
+            background-color: rgb(104, 16, 16);
+            top: 0;
+            left:0;
+        }
+    }
+    </style>
+</head>
+<body>
+<div class="d1">
+tap
+</div>
+<div class="d2">
+    tap
+</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td,tr{
+            padding: 10px;
+            border: 1px solid rgb(0, 0, 0);
+            border-collapse: collapse;
+
+        }
+     
+        table{
+            width: 75%;
+            margin: 0 auto;
+            font-size: 1.5em;
+        }
+        thead tr{
+              background: greenyellow;
+              color: darkred;
+        }
+        tbody tr{
+            background: rgb(34, 89, 209);
+            color: rgb(255, 255, 255); 
+            text-align: center; 
+        }
+        tbody tr :nth-child(even){
+            background: rgb(2, 22, 65);
+            color: rgb(255, 255, 255); 
+        }
+        tbody tr :nth-child(1){
+            background: rgb(71, 2, 0);
+            color: rgb(255, 255, 255); 
+        }
+        tbody tr :nth-child(3){
+            background: rgb(27, 196, 125);
+            color: rgb(255, 255, 255); 
+        }
+        tbody tr:hover :nth-child(n+1){
+            background: rgb(143, 156, 122);
+        }
+    </style>
+</head>
+<body>
+    <table>
+          <thead>
+              <tr>
+                  <th>Car Name</th>
+                  <th>Price</th>
+                  <th>Description</th>
+              </tr>
+          </thead>
+          <tbody>
+           <tr>
+               <td>Aston Martin</td>
+               <td>400.000£</td>
+               <td>No Accident Report</td>
+           </tr>
+           <tr>
+            <td>Lamborghini</td>
+            <td>340.000£</td>
+            <td >No Accident Report</td>
+           </tr>
+           <tr>
+            <td>Toyota</td>
+            <td>70.000£</td>
+            <td>No Accident Report</td>
+           </tr>
+          </tbody>
+    </table>
+</body>
+</html>

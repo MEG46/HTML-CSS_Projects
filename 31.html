@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            counter-reset: header;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+            font-variant: small-caps;
+            font-style: italic;
+            color: azure;
+            background: darkcyan;
+        }
+        h1:before{
+            counter-increment: header;
+            content: "Chapter " counter(header) " : ";
+        }
+        h1{
+            counter-reset: subtitle;
+        }
+        h2:before{
+            counter-increment: subtitle;
+            content: "Subtitle " counter(subtitle) " : ";
+        }
+    </style>
+</head>
+<body>
+    <h1>Main Title 1</h1>
+    <h2>Subtitle</h2>
+    <h2>Subtitle</h2>
+    <h1>Main Title 2</h1>
+    <h2>Subtitle</h2>
+    <h2>Subtitle</h2>
+    <h1>Main Title 3</h1>
+    <h2>Subtitle</h2>
+    <h2>Subtitle</h2>
+    <h1>Main Title 4</h1>
+    <h2>Subtitle</h2>
+    <h2>Subtitle</h2>
+
+    
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     fieldset{
+        max-width: 60%;
+        max-height: 20em;
+        min-height: 50%;
+        min-height: 18em;
+        border: 2px solid darkgray;
+        border-radius: 5px;
+        background: rgb(54, 121, 121);
+        margin:100px auto;
+     }
+    legend{
+        background: darkcyan;
+        color: azure;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2em;
+        letter-spacing: 1px;
+        border: 3px solid rgb(2, 88, 24);
+        border-radius: 10px;
+        box-sizing: border-box;
+        
+    }
+    label{
+        display: flex;
+        color: azure;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.5em;
+        letter-spacing: 1px;
+        text-align: center;
+        justify-content: center;
+    }
+    input[text]{
+        display: flex;
+        color: ivory;
+        text-shadow: 1px solid rgb(99, 47, 47);
+        font-size: 1.5em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 0 auto;
+        justify-content: center;
+        border: 3px solid rgb(88, 29, 2);
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+    input[email]{
+        display: flex;
+        color: ivory;
+        text-shadow: 1px solid rgb(99, 47, 47);
+        font-size: 2em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 0 auto;
+        justify-content: center;
+        border: 3px solid rgb(88, 29, 2);
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+    input[button]{
+        display: inline-flex;
+        color: azure;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2em;
+        letter-spacing: 1px;
+        justify-content: right;
+    }
+    body{
+        background: rgb(79, 134, 65);
+    }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>User Register</legend>
+        <label for="">Name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" placeholder="Name"></label><br/>
+        <label for="">Surname :&nbsp;&nbsp;&nbsp;<input type="text" name="name" placeholder="Surname"></label><br/>
+        <label for="">Email :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="name" placeholder="Email"></label><br/>
+        <label for=""> Telephone :&nbsp;<input type="text" name="name" placeholder="Phone Number"></label><br/>
+        <label for="">Remember Password<input type="checkbox" name="name">&nbsp;&nbsp;&nbsp;<input type="button" value="Register"></label>
+    </fieldset>
+</body>
+</html>
